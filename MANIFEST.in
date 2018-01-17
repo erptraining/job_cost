@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include job_cost *.css
+recursive-include job_cost *.csv
+recursive-include job_cost *.html
+recursive-include job_cost *.ico
+recursive-include job_cost *.js
+recursive-include job_cost *.json
+recursive-include job_cost *.md
+recursive-include job_cost *.png
+recursive-include job_cost *.py
+recursive-include job_cost *.svg
+recursive-include job_cost *.txt
+recursive-exclude job_cost *.pyc
